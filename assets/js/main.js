@@ -56,6 +56,7 @@
 
 			window.setTimeout(function() {
 				$menu._locked = false;
+				alert("Menu Unlocked")
 			}, 350);
 
 			return true;
